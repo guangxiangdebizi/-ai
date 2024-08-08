@@ -126,7 +126,7 @@ QA_GENERATION_PROMPT = PromptTemplate(
 llm = ChatOpenAI(
     temperature=1,  # 设置较低的温度以提高生成结果的一致性
     model="glm-4",
-    openai_api_key="42ba7b01f32793510cb761f80604eef6.3AtJPYj5QJpIclH0",
+    openai_api_key="your_api_key/你自己的api密钥",
     openai_api_base="https://open.bigmodel.cn/api/paas/v4/"
 )
 
